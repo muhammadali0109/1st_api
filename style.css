@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+body {
+    height: 100vh;
+    background: linear-gradient(
+        135deg,
+        #8052ec,
+        #d161ff
+    );
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    width: 60%;
+    height: 50%;
+    position: absolute;
+    border: 1px solid white;
+    padding: 30px 40px;
+    margin:  0 auto;
+    top: 20%;
+    left: 20%;
+}
+
+.buttons {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    border-bottom: 2px solid white;
+}
+
+.buttons button {
+    width: 15%;
+    height: 40px;
+    background: linear-gradient(
+        100deg,
+        rgb(197, 189, 189),
+        rgb(255, 255, 255) 
+    );
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    color: rgb(10, 10, 10);
+}
+
+.buttons button:hover {
+    transition-duration: 2s;
+    background: linear-gradient(
+        100deg,
+        rgb(57, 133, 180),
+        rgb(101, 236, 148) 
+    );
+    color: white;
+}
+
+.times__of__pray {
+    display: flex;
+    column-gap: 20px;
+}
+
+.times__of__pray ul{
+    width: 12%;
+    height: 80%;
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px 8px;
+}
+.times__of__pray ul li{
+    color: white;
+}
